@@ -1,0 +1,15 @@
+[package]
+name = "kaleidoscope-rust"
+version = "0.1.0"
+authors = ["Daniel Kolsoi <thadan64@gmail.com>", "Andrew Archibald <andrew@aarchibald.com>"]
+description = "LLVM Kaleidoscope language tutorial using Inkwell"
+documentation = "https://thedan64.github.io/inkwell/"
+repository = "https://github.com/andrewarchi/kaleidoscope-rust"
+readme = "README.md"
+keywords = ["llvm", "safe", "wrapper"]
+license = "Apache-2.0"
+categories = ["development-tools::ffi"]
+edition = "2018"
+
+[dependencies]
+inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm13-0"] }

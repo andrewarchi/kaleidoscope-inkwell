@@ -3,7 +3,7 @@
 This example shows how one can implement the [Kaleidoscope programming language](https://llvm.org/docs/tutorial/index.html) using Inkwell.  
 It implements every feature up to the [7th chapter](https://llvm.org/docs/tutorial/LangImpl07.html).
 
-When running this example (using the `cargo run --example kaleidoscope` command), a prompt will be displayed; for example:
+When running this example (using the `cargo run` command), a prompt will be displayed; for example:
 
 ```
 ?> 1 + 1

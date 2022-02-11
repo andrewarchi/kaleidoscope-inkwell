@@ -21,15 +21,15 @@ use std::iter::Peekable;
 use std::ops::DerefMut;
 use std::str::Chars;
 
-use self::inkwell::builder::Builder;
-use self::inkwell::context::Context;
-use self::inkwell::module::Module;
-use self::inkwell::passes::PassManager;
-use self::inkwell::types::BasicMetadataTypeEnum;
-use self::inkwell::values::{
+use inkwell::builder::Builder;
+use inkwell::context::Context;
+use inkwell::module::Module;
+use inkwell::passes::PassManager;
+use inkwell::types::BasicMetadataTypeEnum;
+use inkwell::values::{
     BasicMetadataValueEnum, BasicValue, FloatValue, FunctionValue, PointerValue,
 };
-use self::inkwell::{FloatPredicate, OptimizationLevel};
+use inkwell::{FloatPredicate, OptimizationLevel};
 
 use crate::Token::*;
 
